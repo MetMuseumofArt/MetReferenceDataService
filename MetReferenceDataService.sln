@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetReferenceDataServiceHost", "MetReferenceDataService\MetReferenceDataServiceHost.csproj", "{F6155F48-B905-425E-A3F9-BCC2F8C16143}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetReferenceDataService.Tests", "MetReferenceDataService.Tests\MetReferenceDataService.Tests.csproj", "{4352D091-E541-43A6-9B2A-3CD44247590F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParsingServiceProvider", "DLParsingService\ParsingServiceProvider.csproj", "{894A872A-87C6-4F4B-BF91-7A5FAD2D8783}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://sptfs00:8080/tfs/ist
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MetReferenceDataService\\MetReferenceDataServiceHost.csproj
+		SccProjectName1 = MetReferenceDataService
+		SccLocalPath1 = MetReferenceDataService
+		SccProjectUniqueName2 = MetReferenceDataService.Tests\\MetReferenceDataService.Tests.csproj
+		SccProjectName2 = MetReferenceDataService.Tests
+		SccLocalPath2 = MetReferenceDataService.Tests
+		SccProjectUniqueName3 = DLParsingService\\ParsingServiceProvider.csproj
+		SccProjectName3 = DLParsingService
+		SccLocalPath3 = DLParsingService
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6155F48-B905-425E-A3F9-BCC2F8C16143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6155F48-B905-425E-A3F9-BCC2F8C16143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6155F48-B905-425E-A3F9-BCC2F8C16143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6155F48-B905-425E-A3F9-BCC2F8C16143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4352D091-E541-43A6-9B2A-3CD44247590F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4352D091-E541-43A6-9B2A-3CD44247590F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4352D091-E541-43A6-9B2A-3CD44247590F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4352D091-E541-43A6-9B2A-3CD44247590F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{894A872A-87C6-4F4B-BF91-7A5FAD2D8783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{894A872A-87C6-4F4B-BF91-7A5FAD2D8783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{894A872A-87C6-4F4B-BF91-7A5FAD2D8783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{894A872A-87C6-4F4B-BF91-7A5FAD2D8783}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
