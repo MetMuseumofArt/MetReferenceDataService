@@ -49,15 +49,14 @@
       <HintPath>..\DLParsingService\bin\Debug\log4net.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="MMA.ADS.ADSProvider, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\DLParsingService\bin\Debug\MMA.ADS.ADSProvider.dll</HintPath>
+    <Reference Include="MMA.ADS.ADSProvider">
+      <HintPath>..\lib\MMA.ADS.ADSProvider.dll</HintPath>
     </Reference>
     <Reference Include="MMA.ADS.CSS.Membership.Logger">
-      <HintPath>..\..\..\MemberShipService\MMA.CCS.Service.Membership.Provider\bin\Debug\MMA.ADS.CSS.Membership.Logger.dll</HintPath>
+      <HintPath>..\lib\MMA.ADS.CSS.Membership.Logger.dll</HintPath>
     </Reference>
     <Reference Include="MMA.ADS.CSS.Membership.Provider">
-      <HintPath>..\..\..\MemberShipService\MMA.CCS.Service.Membership.Provider\bin\Debug\MMA.ADS.CSS.Membership.Provider.dll</HintPath>
+      <HintPath>..\lib\MMA.ADS.CSS.Membership.Provider.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
